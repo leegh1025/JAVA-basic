@@ -12,7 +12,7 @@ public class Book extends Item{
 
     @Override
     public void print() {
-        super.print();
+        super.print(); //오버라이드하는 단축기 컨트롤 + o
         System.out.println("- 저자:" + author + ", isbn:" + isbn);
     }
 }
